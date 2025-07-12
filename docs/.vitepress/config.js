@@ -68,7 +68,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/username/repository' }
+      { icon: 'github', link: 'https://github.com/cyberswat/docs-template' }
     ],
 
     footer: {
@@ -83,7 +83,7 @@ export default defineConfig({
 
     // Edit link configuration
     editLink: {
-      pattern: 'https://github.com/username/repository/edit/main/docs/:path',
+      pattern: 'https://github.com/cyberswat/docs-template/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     }
   },

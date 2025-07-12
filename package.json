@@ -2,6 +2,7 @@
   "name": "docs-template",
   "version": "1.0.0",
   "description": "VitePress documentation template with Diátaxis framework",
+  "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
