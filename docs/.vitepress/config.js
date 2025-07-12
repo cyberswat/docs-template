@@ -4,6 +4,9 @@ export default defineConfig({
   title: 'Project Name',
   description: 'Project documentation',
   
+  // Base URL for GitHub Pages
+  base: '/docs-template/',
+  
   // Clean URLs without .html extension
   cleanUrls: true,
   
