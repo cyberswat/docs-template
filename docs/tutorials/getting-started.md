@@ -71,6 +71,6 @@ console.log('Hello from my app!')
 
 ## Next Steps
 
-- Continue with [Your First Feature](./first-feature)
-- Explore [Common Tasks](/how-to/common-tasks)
-- Read about [Core Concepts](/explanation/concepts)
+- Learn [How to perform specific tasks](/how-to/)
+- Understand [the architecture](/explanation/architecture)
+- Check the [Reference documentation](/reference/)
