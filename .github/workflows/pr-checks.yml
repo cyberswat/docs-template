@@ -4,10 +4,6 @@ on:
   pull_request:
     branches:
       - main
-    paths:
-      - 'docs/**'
-      - 'package.json'
-      - '.github/workflows/**'
 
 jobs:
   build:
