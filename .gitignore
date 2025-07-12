@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# VitePress
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+docs/.vitepress/.temp/
+.temp/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+Thumbs.db

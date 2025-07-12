@@ -1,0 +1,25 @@
+{
+  "name": "docs-template",
+  "version": "1.0.0",
+  "description": "VitePress documentation template with Diátaxis framework",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.31"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyberswat/docs-template.git"
+  },
+  "keywords": [
+    "vitepress",
+    "documentation",
+    "diataxis",
+    "template"
+  ],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,17 @@
+# Configuration for template repository
+# This file helps users who create repos from this template
+
+name: Template Cleanup
+description: |
+  This template provides a VitePress documentation site with Diátaxis framework.
+  After creating your repository from this template, update:
+  1. docs/.vitepress/config.js - Your project name and description
+  2. docs/index.md - Your homepage content
+  3. package.json - Your project details
+  4. README.md - Your project information
+
+cleanup:
+  - README.md
+  - docs/index.md
+  - docs/.vitepress/config.js
+  - package.json
