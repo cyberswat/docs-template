@@ -25,8 +25,7 @@ export default defineConfig({
           text: 'Tutorials',
           collapsed: false,
           items: [
-            { text: 'Getting Started', link: '/tutorials/getting-started' },
-            { text: 'Your First Feature', link: '/tutorials/first-feature' }
+            { text: 'Getting Started', link: '/tutorials/getting-started' }
           ]
         }
       ],
@@ -35,9 +34,7 @@ export default defineConfig({
           text: 'How-To Guides',
           collapsed: false,
           items: [
-            { text: 'Overview', link: '/how-to/' },
-            { text: 'Common Tasks', link: '/how-to/common-tasks' },
-            { text: 'Advanced Usage', link: '/how-to/advanced-usage' }
+            { text: 'Overview', link: '/how-to/' }
           ]
         }
       ],
@@ -46,10 +43,7 @@ export default defineConfig({
           text: 'Reference',
           collapsed: false,
           items: [
-            { text: 'Overview', link: '/reference/' },
-            { text: 'API', link: '/reference/api' },
-            { text: 'Configuration', link: '/reference/configuration' },
-            { text: 'CLI', link: '/reference/cli' }
+            { text: 'Overview', link: '/reference/' }
           ]
         }
       ],
@@ -59,9 +53,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'Overview', link: '/explanation/' },
-            { text: 'Architecture', link: '/explanation/architecture' },
-            { text: 'Design Decisions', link: '/explanation/design-decisions' },
-            { text: 'Concepts', link: '/explanation/concepts' }
+            { text: 'Architecture', link: '/explanation/architecture' }
           ]
         }
       ]

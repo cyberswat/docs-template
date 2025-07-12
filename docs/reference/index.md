@@ -1,57 +1,63 @@
 # Reference
 
-Technical reference documentation.
+Technical reference documentation for your project.
 
-## API Reference
+## About Reference Documentation
 
-- [Core API](/reference/api#core)
-- [Plugin API](/reference/api#plugins)
-- [Hooks](/reference/api#hooks)
-- [Events](/reference/api#events)
+Reference docs are **information-oriented** and designed for lookup rather than learning. They should be:
 
-## Configuration
+- **Complete** - Document every public API, option, and feature
+- **Accurate** - Keep in sync with your code
+- **Consistent** - Use the same format throughout
+- **Searchable** - Use clear, descriptive titles
 
-- [Configuration File](/reference/configuration#file)
-- [Environment Variables](/reference/configuration#environment)
-- [CLI Options](/reference/configuration#cli)
+## Reference Structure
 
-## Command Line Interface
+Organize your reference documentation by type:
 
-- [Commands](/reference/cli#commands)
-- [Options](/reference/cli#options)
-- [Examples](/reference/cli#examples)
+### API Documentation
+- Functions, methods, and classes
+- Parameters and return values
+- Code examples for each item
 
-## File Formats
+### Configuration
+- All available options
+- Default values
+- Environment variables
 
-[Documentation for file formats coming soon]
+### CLI Commands
+- Command syntax
+- Available flags and options
+- Usage examples
 
----
+### File Formats
+- Schema definitions
+- Field descriptions
+- Valid values
 
-::: details Quick Reference Card
+## Template Example
 
-### Common Commands
-```bash
-your-project create <name>    # Create new project
-your-project dev             # Start dev server
-your-project build           # Build for production
-your-project test            # Run tests
+```markdown
+## functionName(param1, param2)
+
+Brief description of what the function does.
+
+### Parameters
+
+- `param1` (Type) - Description
+- `param2` (Type, optional) - Description. Default: `value`
+
+### Returns
+
+(ReturnType) - Description of return value
+
+### Example
+
+\```javascript
+const result = functionName('value1', 'value2');
+\```
 ```
 
-### Configuration Locations
-- `./your-project.config.js` - Project config
-- `./.env` - Environment variables
-- `~/.your-projectrc` - Global settings
-
-### Important Paths
-- `src/` - Source code
-- `dist/` - Built output
-- `tests/` - Test files
+::: tip
+Reference documentation is not the place for lengthy explanations. Keep descriptions concise and link to the [Explanation](/explanation/) section for the "why".
 :::
-
-## Type Definitions
-
-If you're using TypeScript, import types from:
-
-```ts
-import { Config, Plugin, Hook } from 'your-project'
-```

@@ -1,35 +1,36 @@
 # Explanation
 
-Understanding the concepts and design of the project.
+Understanding-oriented documentation that clarifies and illuminates.
 
-## Core Concepts
+## About Explanation
 
-- [Architecture Overview](/explanation/architecture)
-- [Design Decisions](/explanation/design-decisions)
-- [Key Concepts](/explanation/concepts)
+Explanation sections provide context, discuss alternatives, and help readers understand the **why** behind your project. They're different from how-to guides (task-focused) or reference (information-focused).
 
-## Deep Dives
+## What to Include
 
-- [How It Works Under the Hood](/explanation/how-it-works)
-- [Performance Characteristics](/explanation/performance)
-- [Security Model](/explanation/security)
+Good explanation documentation covers:
 
-## Philosophy
+- **Architecture** - System design and component relationships
+- **Concepts** - Core ideas and mental models
+- **Design Decisions** - Trade-offs and rationale
+- **Background** - Historical context and evolution
+- **Comparisons** - How your approach differs from alternatives
 
-- [Why We Built This](/explanation/why)
-- [Design Principles](/explanation/principles)
-- [Future Vision](/explanation/future)
+## Writing Tips
 
----
+- Use analogies and examples
+- Connect ideas to broader concepts
+- Discuss pros and cons openly
+- Avoid step-by-step instructions (those belong in how-to guides)
 
-::: info About This Section
-The explanation section provides context and background to help you understand not just *what* the project does, but *why* it works the way it does. This deeper understanding will help you make better decisions when using and extending the project.
+## Start With
+
+Begin your explanation section with:
+
+1. [Architecture Overview](./architecture) - A high-level view of your system
+2. Core concepts that users need to understand
+3. Key decisions that shaped the project
+
+::: info
+Explanation is about understanding. If someone asks "but why does it work that way?", the answer belongs here.
 :::
-
-## Start Here
-
-If you're looking to understand the project better, we recommend reading in this order:
-
-1. [Architecture Overview](/explanation/architecture) - Understand the high-level design
-2. [Key Concepts](/explanation/concepts) - Learn the fundamental ideas
-3. [Design Decisions](/explanation/design-decisions) - See why we made certain choices

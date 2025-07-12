@@ -1,44 +1,43 @@
 # How-To Guides
 
-Practical guides for accomplishing specific tasks.
+Practical step-by-step guides for specific tasks.
 
-## Common Tasks
+## About How-To Guides
 
-- [Deploy to Production](/how-to/deploy-production)
-- [Configure Authentication](/how-to/configure-auth)
-- [Set Up CI/CD](/how-to/setup-ci-cd)
-- [Integrate with Third-Party Services](/how-to/integrate-services)
+How-to guides are **task-oriented** instructions that help users accomplish specific goals. Unlike tutorials, they assume basic knowledge and focus on getting things done.
 
-## Development
+## Template Structure
 
-- [Debug Common Issues](/how-to/debug-issues)
-- [Optimize Performance](/how-to/optimize-performance)
-- [Add Custom Plugins](/how-to/add-plugins)
-- [Extend the API](/how-to/extend-api)
+Create how-to guides with this structure:
 
-## Configuration
+```markdown
+# How to [Specific Task]
 
-- [Environment Variables](/how-to/env-variables)
-- [Custom Themes](/how-to/custom-themes)
-- [Advanced Settings](/how-to/advanced-settings)
+## Prerequisites
+- What the user needs to know/have before starting
+
+## Steps
+1. First step with clear action
+2. Second step with expected result
+3. Continue until task is complete
+
+## Verification
+How to confirm the task was successful
+
+## Troubleshooting
+Common issues and their solutions
+```
+
+## Example Topics
+
+When using this template, consider adding guides for:
+
+- **Setup & Configuration** - Environment setup, deployment, CI/CD
+- **Common Tasks** - Daily workflows your users need
+- **Integrations** - Connecting with other tools/services
+- **Performance** - Optimization and scaling
+- **Troubleshooting** - Debugging and problem-solving
 
 ::: tip
-These guides assume you already have the project installed and understand the basics. If you're new, start with the [tutorials](/tutorials/getting-started).
+Keep how-to guides focused on a single task. If you find yourself explaining concepts, that belongs in the [Explanation](/explanation/) section.
 :::
-
-## Quick Solutions
-
-### Update to Latest Version
-```bash
-npm update your-project
-```
-
-### Clear Cache
-```bash
-your-project cache clear
-```
-
-### Check Configuration
-```bash
-your-project config validate
-```
