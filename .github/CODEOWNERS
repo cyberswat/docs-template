@@ -1,0 +1,16 @@
+# CODEOWNERS for docs-template repository
+# This file defines who must review PRs for specific paths
+
+# Default owner for everything in the repo
+* @cyberswat
+
+# Documentation files
+/docs/ @cyberswat
+*.md @cyberswat
+
+# GitHub Actions workflows
+/.github/workflows/ @cyberswat
+
+# Configuration files
+package.json @cyberswat
+package-lock.json @cyberswat
