@@ -23,9 +23,7 @@ Technical reference documentation.
 
 ## File Formats
 
-- [Project Structure](/reference/structure)
-- [Configuration Schema](/reference/schema)
-- [Plugin Format](/reference/plugin-format)
+[Documentation for file formats coming soon]
 
 ---
 
